@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+    display: none
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+.cube {
+    height: 100%;
+    width: 100%;
+}
+
+.cube {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
