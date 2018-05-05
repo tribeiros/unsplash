@@ -7,13 +7,16 @@ margin: 0;
 padding: 0;
 }
 
+body {
+	animation: fadein 6s;
+}
+
 .cube {
 	height: 100%;
     width: 100%;
   	background-repeat: no-repeat;
   	background-position: center;
   	background-size: 100%;
-  	animation: fadein 6s;;
 }
 
 @keyframes fadein {
