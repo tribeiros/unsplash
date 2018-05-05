@@ -12,4 +12,4 @@ for (let item of cubes) {
 }
 
 
-setInterval(function(){ location.reload(); }, 15000);
+setInterval(function(){ location.reload(); }, 30000);
