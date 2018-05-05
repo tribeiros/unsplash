@@ -5,14 +5,10 @@
 
 ### fullscreen slideshow unsplash photos
 
-just clone repo
-`git clone https://github.com/tribeiros/unsplash.git`
+just clone repo  `git clone https://github.com/tribeiros/unsplash.git`
 
-enter folder
-`cd unsplash`
+enter folder  `cd unsplash`
 
-install electron dependencies
-`npm install`
+install electron dependencies  `npm install`
 
-execute app
-`npm start`
+execute app  `npm start`
