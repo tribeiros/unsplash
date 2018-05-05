@@ -8,7 +8,7 @@ const shell = require('electron')
 let mainWindow
 function createWindow () {
   const {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
-  mainWindow = new BrowserWindow({width: width / 2, height: height / 2, transparent: true, titleBarStyle: 'hidden', fullscreen: false})
+  mainWindow = new BrowserWindow({width: width / 1.5, height: height / 1.5, transparent: true, titleBarStyle: 'hidden', fullscreen: false})
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',

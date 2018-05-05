@@ -1,5 +1,6 @@
 const unsplashApi = 'https://source.unsplash.com'
 const source = 'random'
+const {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
 const resolution = '1920x1080'
 const cubes = document.getElementsByClassName('cube');
 
