@@ -10,4 +10,4 @@ for (let item of cubes) {
   	item.style.opacity = 1;
 }
 
-setInterval(function(){ location.reload(); }, 60000);
+setInterval(function(){ window.location.reload(true); }, 60000);
