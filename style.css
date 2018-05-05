@@ -5,7 +5,6 @@
 * {
 margin: 0;
 padding: 0;
-cursor: none;
 }
 
 
@@ -18,4 +17,10 @@ cursor: none;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  animation: fadein 5s;;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
