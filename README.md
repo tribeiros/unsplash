@@ -1,3 +1,3 @@
-# Caotic Electron app
+# Unsplash Electron app
 # unsplashapp
 # unsplash
