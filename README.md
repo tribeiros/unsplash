@@ -5,4 +5,14 @@
 
 ### fullscreen slideshow unsplash photos
 
-my first app with electron framework
+just clone repo
+`git clone https://github.com/tribeiros/unsplash.git`
+
+enter folder
+`cd unsplash`
+
+install electron dependencies
+`npm install`
+
+execute app
+`npm start`
