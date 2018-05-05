@@ -6,8 +6,7 @@ const cubes = document.getElementsByClassName('cube');
 
 for (let item of cubes) {
   const bgImage = `url('${unsplashApi}/${source}/${resolution}/${query}')`;
-  item.style.backgroundImage = `linear-gradient(
-    rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), ${bgImage}`;
+  item.style.backgroundImage = `${bgImage}`;
   item.style.opacity = 1;
 }
 
