@@ -1,7 +1,7 @@
 const unsplashApi = 'https://source.unsplash.com'
 const source = ''
 const resolution = '1920x1080'
-const query = '?lion'
+const query = '?woman,girl'
 const cubes = document.getElementsByClassName('cube');
 
 for (let item of cubes) {
