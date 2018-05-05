@@ -1,11 +1,11 @@
 const unsplashApi = 'https://source.unsplash.com'
 const source = ''
 const resolution = '1920x1080'
-const search = '?nature'
+const query = '?nature'
 const cubes = document.getElementsByClassName('cube');
 
 for (let item of cubes) {
-  const bgImage = `url('${unsplashApi}/${source}/${resolution}/${search}')`;
+  const bgImage = `url('${unsplashApi}/${source}/${resolution}/${query}')`;
   item.style.backgroundImage = `linear-gradient(
     rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), ${bgImage}`;
   item.style.opacity = 1;
