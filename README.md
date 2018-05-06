@@ -17,9 +17,9 @@ install electron dependencies\
 execute app\
 `npm start`
 
-### Maybe you dont have npm
+###Maybe you dont have npm
 
-On macos
+####On macos
 
 First install brew\
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`\
@@ -27,12 +27,12 @@ First install brew\
 So, install npm\
 `brew install npm`
 
-On Windows
+####On Windows
 
 get instaler from url\
 [](https://nodejs.org/en/download/)
 
-On Linux
+####On Linux
 I think your distribuitiom have a package to install like\
 `yum install npm`\
 or\
