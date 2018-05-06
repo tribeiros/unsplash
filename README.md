@@ -49,7 +49,7 @@ on line 282\
 First install brew\
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`\
 
-So, install npm\
+So, install git\
 `brew install git`
 
 #### On Windows
