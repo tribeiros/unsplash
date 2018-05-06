@@ -65,6 +65,7 @@ or\
 [dont know mode](http://caosfera.com.br)
 
 
-This app dont have confs yet, but new features will appear with time. 
+This app dont have confs yet, but new features will appear with time.\
+feel free to edit renderer.js for personal query 
 
 
