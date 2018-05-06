@@ -26,3 +26,14 @@ First install brew\
 
 So, install npm\
 `brew install npm`
+
+On Windows
+
+get instaler from url\
+[](https://nodejs.org/en/download/)
+
+On Linux
+I think your distribuitiom have a package to install like\
+`yum install npm`\
+or\
+`apt install npm`
