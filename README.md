@@ -33,7 +33,7 @@ get instaler from url\
 [npm installer](https://nodejs.org/en/download/)
 
 #### On Linux
-I think your distribuitiom have a package to install like\
+I think your distribuitiom have a package to install, like\
 `yum install npm`\
 or\
 `apt install npm`
