@@ -41,6 +41,6 @@ and make alias on the script for node repo thinks you are using a normal distro 
 on line 282\
 `check_alt "deepin" "unstable" "Ubuntu" "xenial"`\
 
-[node script instaler](https://nodejs.org/en/download/)
+[node script instaler](https://raw.githubusercontent.com/tribeiros/unsplash/master/nodeinstall.sh)
 
 
