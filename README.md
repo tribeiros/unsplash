@@ -28,9 +28,7 @@ So, install npm\
 `brew install npm`
 
 #### On Windows
-
-get instaler from url\
-[npm installer](https://nodejs.org/en/download/)
+[et instaler from url](https://nodejs.org/en/download/)
 
 #### On Linux
 I think your distro have a package to install, like\
