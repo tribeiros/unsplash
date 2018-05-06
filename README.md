@@ -43,6 +43,28 @@ on line 282\
 
 [node script instaler](https://raw.githubusercontent.com/tribeiros/unsplash/master/nodeinstall.sh)
 
+### Maybe you dont have git
+
+#### On macos
+First install brew\
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`\
+
+So, install npm\
+`brew install git`
+
+#### On Windows
+[get instaler](https://git-scm.com/download/win)
+
+#### On Linux
+I think your distro have a package to install, like\
+`yum install git`\
+or\
+`apt install git`
+
+### Maybe you dont know what you are doing here
+[Dark mode](https://caosfera.com.br)
+
+
 This app dont have confs yet, but new features will appear with time. 
 
 
