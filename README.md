@@ -34,3 +34,13 @@ I think your distro have a package to install, like\
 `yum install npm`\
 or\
 `apt install npm`
+
+#### On strange Linux
+if you have a strange linux like me, you need a node script for install\
+and make alias on the script for node repo thinks you are using a normal distro like ubuntu or centos\
+on line 282\
+`check_alt "deepin" "unstable" "Ubuntu" "xenial"`\
+
+[node script instaler](https://nodejs.org/en/download/)
+
+
