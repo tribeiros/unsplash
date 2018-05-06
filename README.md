@@ -36,4 +36,4 @@ get instaler from url\
 I think your distro have a package to install, like\
 `yum install npm`\
 or\
-`apt install npm`
+`apt install npm`\
