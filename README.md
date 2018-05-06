@@ -62,7 +62,7 @@ or\
 `apt install git`
 
 ### Maybe you dont know what you are doing here
-[Dark mode](https://caosfera.com.br)
+[Dark mode](http://caosfera.com.br)
 
 
 This app dont have confs yet, but new features will appear with time. 
