@@ -30,7 +30,7 @@ So, install npm\
 #### On Windows
 
 get instaler from url\
-[](https://nodejs.org/en/download/)
+[npm installer](https://nodejs.org/en/download/)
 
 #### On Linux
 I think your distribuitiom have a package to install like\
