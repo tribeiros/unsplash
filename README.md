@@ -43,4 +43,6 @@ on line 282\
 
 [node script instaler](https://raw.githubusercontent.com/tribeiros/unsplash/master/nodeinstall.sh)
 
+This app dont have confs yet, but new features will appear with time. 
+
 
