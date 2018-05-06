@@ -3,7 +3,7 @@
 ![unsplash app](https://raw.githubusercontent.com/tribeiros/unsplash/master/unsplash.png)
 
 
-### fullscreen slideshow unsplash photos
+### fullscreen slideshow random unsplash photos
 
 clone repo\
 `git clone https://github.com/tribeiros/unsplash.git`
