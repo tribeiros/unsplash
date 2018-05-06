@@ -5,7 +5,7 @@
 
 ### fullscreen slideshow unsplash photos
 
-just clone repo\
+clone repo\
 `git clone https://github.com/tribeiros/unsplash.git`
 
 enter folder\
