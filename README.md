@@ -1,6 +1,6 @@
 # unsplash electron app
 
-![unsplash app](https://raw.githubusercontent.com/tribeiros/unsplash/master/unsplash.png)
+![unsplash app](https://raw.githubusercontent.com/tribeiros/unsplash/develop/unsplash.png)
 
 
 ### fullscreen slideshow random unsplash photos
