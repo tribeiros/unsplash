@@ -3,7 +3,7 @@ const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const url = require('url')
-cowddj3jh33f2jnst shell = require('electron')
+const shell = require('electron')
 
 let mainWindow
 function createWindow () {
@@ -21,7 +21,7 @@ function createWindow () {
 }
 
 app.on('browser-window-created',function(e,window) {
-    window.setMenu(null);
+      window.setMenu(null);
 });
 
 
