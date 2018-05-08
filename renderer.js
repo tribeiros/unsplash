@@ -5,11 +5,11 @@ const query = ''
 const cubes = document.getElementsByClassName('cube');
 
 for (let item of cubes) {
-  	const bgImage = `url('${unsplashApi}/${source}/${resolution}/${query}')`;
-  	item.style.backgroundImage = `${bgImage}`;
-  	item.style.opacity = 1;
+    const bgImage = `url('${unsplashApi}/${source}/${resolution}/${query}')`;
+    item.style.backgroundImage = `${bgImage}`;
+    item.style.opacity = 1;
 }
 
 setInterval(function(){
-	window.location.reload(true);
+    window.location.reload(true);
 }, 60000);
