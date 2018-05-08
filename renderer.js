@@ -13,4 +13,4 @@ for (let item of cubes) {
 
 setInterval(function(){
     window.location = location.href;
-}, 6000);
+}, 60000);
