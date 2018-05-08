@@ -14,7 +14,7 @@ padding: 0;
     background-position: center;
     background-size: 100%;
     animation: fadein 10s;
-    animation: zoom 60s;
+    animation: scale 60s;
 }
 
 @keyframes fadein {
@@ -22,7 +22,7 @@ padding: 0;
     to   { opacity: 1; }
 }
 
-@keyframes zoom {
+@keyframes scale {
     from { transform: scale(1); }
     to   { transform: scale(1.2); }
 }
