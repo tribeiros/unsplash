@@ -14,7 +14,7 @@ padding: 0;
     background-position: center;
     background-size: 100%;
     animation: fadein 10s;
-    animation: scale 120s;
+    animation: scale 90s;
 }
 
 @keyframes fadein {
