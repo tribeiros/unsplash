@@ -1,7 +1,7 @@
 const unsplashApi = 'https://source.unsplash.com'
 const source = 'random'
 const resolution = '1920x1080'
-const query = '?nature'
+const query = ''
 const cubes = document.getElementsByClassName('cube');
 
 
