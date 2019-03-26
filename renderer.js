@@ -1,7 +1,7 @@
 const unsplashApi = 'https://source.unsplash.com'
 const source = 'random'
-const resolution = '1920x1080'
-const query = ''
+const resolution = '1280x1024'
+const query = '?nature'
 const cubes = document.getElementsByClassName('cube');
 
 
@@ -13,4 +13,4 @@ for (let item of cubes) {
 
 setInterval(function(){
     window.location = location.href;
-}, 10000);
+}, 60000);
