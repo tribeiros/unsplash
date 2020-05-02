@@ -10,11 +10,12 @@ padding: 0;
 .cube {
     height: 100%;
     width: 100%;
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    animation: fadein 10s;
-    animation: scale 90s;
+/*    animation: fadein 30s infinite;*/
+    animation: scale 60s infinite;
 }
 
 @keyframes fadein {
@@ -23,6 +24,7 @@ padding: 0;
 }
 
 @keyframes scale {
-    from { transform: scale(1); }
-    to   { transform: scale(1.2); }
+    0% { transform: scale(1); }
+    50%   { transform: scale(1.2); }
+    0% { transform: scale(1); }
 }

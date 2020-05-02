@@ -1,16 +1,48 @@
+// modules
+const fs      = require('fs');
+const request = require('request');
+
+// config
 const unsplashApi = 'https://source.unsplash.com'
 const source = 'random'
 const resolution = '1920x1080'
 const query = '?nature'
-const cubes = document.getElementsByClassName('cube');
 
+// vanila css
+const cube = document.getElementsByClassName('cube');
 
-for (let item of cubes) {
-    const bgImage = `url('${unsplashApi}/${source}/${resolution}/${query}')`;
-    item.style.backgroundImage = `${bgImage}`;
-    item.style.opacity = 1;
+// main function
+function main(){
+  
+  // getting jpg image from api and saving to bg.jpg on disk
+  function getImage(){
+    request.get({url: `${unsplashApi}/${source}/${resolution}/${query}`, encoding: 'binary'}, function (err, response, body) {
+      fs.writeFile('bg.jpg', body, 'binary', function(err) {
+        if(err)
+          console.log(err);
+        else
+          console.log("The file was saved!");
+      });
+    });
+  }
+
+  // getting base64 from bg.jpg file on disk and apply value on background image 
+  function bgImage(){
+    for (let item of cube) {
+      const base64Data = fs.readFileSync('bg.jpg', { encoding: 'base64' });
+      const img = "url('data:image/png;base64, "+base64Data + "')"; 
+      item.style.backgroundImage = img;
+//      item.style.opacity = 1;
+    }
+  }
+
+  //execution and loop
+  getImage();
+  bgImage();  
+  setTimeout(main, 60000);
+
 }
 
-setInterval(function(){
-    window.location = location.href;
-}, 30000);
+
+// call
+main();
