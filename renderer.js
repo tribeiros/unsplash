@@ -36,11 +36,20 @@ function main(){
     }
   }
 
+  function getClock(){
+    let date = new Date();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    minute = minute > 9 ? minute : '0' + minute;
+    document.getElementById("hour").innerHTML = hour;
+    document.getElementById("minute").innerHTML = minute;
+  }
+
   //execution and loop
+  getClock();
   getImage();
   bgImage();  
   setTimeout(main, 60000);
-
 }
 
 

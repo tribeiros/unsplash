@@ -16,6 +16,7 @@ function createWindow () {
     titleBarStyle: 'hidden',
     fullscreen: true,
     backgroundColor: "#000",
+    icon: __dirname + 'icon.icns'
   })
 
   mainWindow.loadURL(url.format({
