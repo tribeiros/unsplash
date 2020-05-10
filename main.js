@@ -16,7 +16,7 @@ function createWindow () {
     titleBarStyle: 'hidden',
     fullscreen: true,
     backgroundColor: "#000",
-    icon: __dirname + 'icon.icns'
+    icon: __dirname + '/icon/mac/icon.icns'
   })
 
   mainWindow.loadURL(url.format({

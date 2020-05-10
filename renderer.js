@@ -32,10 +32,11 @@ function main(){
       const base64Data = fs.readFileSync('bg.jpg', { encoding: 'base64' });
       const img = "url('data:image/png;base64, "+base64Data + "')"; 
       item.style.backgroundImage = img;
-//      item.style.opacity = 1;
+      //item.style.opacity = 1;
     }
   }
 
+  // getting 'clock' to show on bottom right above image
   function getClock(){
     let date = new Date();
     let hour = date.getHours();
