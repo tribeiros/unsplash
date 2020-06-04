@@ -1,52 +1,48 @@
 ::-webkit-scrollbar {
-    display: none
+  display: none
 }
 
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #clock {
-    z-index: 9999;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 900;
-    color: aliceblue;
-    font-size: 50px;
-    font-family: fantasy;
-    opacity: .2;
+  z-index: 9999;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: aliceblue;
+  font-size: 50px;
+  font-family: fantasy;
+  opacity: .2;
 }
 
 #minute {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
 }
 
 #hour {
-    position: fixed;
-    bottom: 70px;
-    right: 30px;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
 }
 
 .cube {
-    height: 100%;
-    width: 100%;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-/*    animation: fadein 30s infinite;*/
-    animation: scale 60s infinite;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.animation {
+  animation: scale 60s infinite;
 }
 
 @keyframes scale {
-    0% { transform: scale(1); }
-    50%   { transform: scale(1.2); }
-    0% { transform: scale(1); }
+  0% { transform: scale(1); }
+  50%   { transform: scale(1.2); }
+  0% { transform: scale(1); }
 }

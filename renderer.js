@@ -32,7 +32,7 @@ function main(){
       const base64Data = fs.readFileSync('bg.jpg', { encoding: 'base64' });
       const img = "url('data:image/png;base64, "+base64Data + "')"; 
       item.style.backgroundImage = img;
-      //item.style.opacity = 1;
+      item.classList.add("animation");
     }
   }
 
@@ -41,14 +41,15 @@ function main(){
     let date = new Date();
     let hour = date.getHours();
     let minute = date.getMinutes();
+    hour = hour > 9 ? hour : '0' + hour;
     minute = minute > 9 ? minute : '0' + minute;
     document.getElementById("hour").innerHTML = hour;
     document.getElementById("minute").innerHTML = minute;
   }
 
   //execution and loop
-  getClock();
-  getImage();
+  getClock()
+  //getImage();
   bgImage();  
   setTimeout(main, 60000);
 }
