@@ -9,14 +9,13 @@ const resolution = '1920x1080'
 const query = '?nature'
 
 // vanila css
-//const cube = document.getElementsByClassName('cube');
+const cube = document.getElementsByClassName('cube');
 
 // main function
 function main(){
   
   // getting jpg image from api and saving to bg.jpg on disk
-  async function getImage(){
-    try {
+  function getImage(){
     request.get({url: `${unsplashApi}/${source}/${resolution}/${query}`, encoding: 'binary'}, function (err, response, body) {
       fs.writeFile('bg.jpg', body, 'binary', function(err) {
         if(err)
@@ -25,10 +24,7 @@ function main(){
           console.log("The file was saved!");
       });
     });
-   } catch (err) {
-    console.log(err);
   }
-}
 
   // getting base64 from bg.jpg file on disk and apply value on background image 
   function bgImage(){
@@ -52,12 +48,12 @@ function main(){
   }
 
   //execution and loop
-  //getClock()
-  getImage();
-  //bgImage();  
-  //setTimeout(main, 60000);
-
-
+  getClock()
+  //getImage();
+  bgImage();  
+  setTimeout(main, 60000);
 }
+
+
 // call
-main()
+main();
